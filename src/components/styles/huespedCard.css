@@ -1,0 +1,62 @@
+.residente{
+    width: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.residente__img{
+    position: relative;
+}
+
+.residente__status{
+    position: absolute;
+    top:10%;
+    background-color: black;
+    padding: 5px 10px;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0 5px 5px 0;
+}
+.residente__circulo{
+    width: 15px;
+    aspect-ratio: 1;
+    background-color: gray;
+    border-radius: 50%;
+
+}
+
+.Alive{
+    background-color: #039E04;
+}
+.Dead{
+    background-color: red;
+}
+
+.residente__linea{
+    border: 1px solid #777;
+    width: 80%;
+    margin: 10px 0;
+}
+
+.residente__list{
+    padding-bottom: 20px;
+    width: 80%;
+}
+.residente__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.residente__item span:first-child{
+    padding-left: 20px;
+    color: gray;
+}
